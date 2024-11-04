@@ -903,7 +903,7 @@ public class AutomobileInventory {
 		for (int i = 0; i < inventory.size(); i++) {
 			Automobile current = inventory.get(i);
 			output = output + (VEHICLE_NUMBER_LABEL + (i + 1) + "\n");
-			output = output + (getVehicleInfoOutput(current.getVehicleInfo()));
+			output = output + (getVehicleInfoOutput(current.getVehicleInfo())) + "\n";
 		}
 		
 		return output;
